@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D40CB9234C70E289024E124 /* Pods_GitReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297F928438C4219C06AB0D2C /* Pods_GitReader.framework */; };
 		B50DEEAA1F61E091009E8728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEA91F61E091009E8728 /* AppDelegate.swift */; };
-		B50DEEAC1F61E091009E8728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEAB1F61E091009E8728 /* ViewController.swift */; };
 		B50DEEAF1F61E091009E8728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50DEEAD1F61E091009E8728 /* Main.storyboard */; };
 		B50DEEB21F61E091009E8728 /* GitReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEB01F61E091009E8728 /* GitReader.xcdatamodeld */; };
 		B50DEEB41F61E091009E8728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50DEEB31F61E091009E8728 /* Assets.xcassets */; };
 		B50DEEB71F61E091009E8728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50DEEB51F61E091009E8728 /* LaunchScreen.storyboard */; };
 		B50DEEC21F61E091009E8728 /* GitReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEC11F61E091009E8728 /* GitReaderTests.swift */; };
 		B50DEECD1F61E091009E8728 /* GitReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEECC1F61E091009E8728 /* GitReaderUITests.swift */; };
+		B50DEEDD1F61E0F4009E8728 /* RepositoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEDC1F61E0F4009E8728 /* RepositoriesTableViewController.swift */; };
+		B50DEEDF1F61E10F009E8728 /* CommitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEDE1F61E10F009E8728 /* CommitsTableViewController.swift */; };
+		B50DEEE41F61E376009E8728 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEE31F61E376009E8728 /* NetworkConnection.swift */; };
+		B50DEEEA1F62DEF3009E8728 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEE91F62DEF3009E8728 /* SignInViewController.swift */; };
+		B50DEEF91F62EAE1009E8728 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50DEEF71F62EAE1009E8728 /* AFNetworking.framework */; };
+		B50DEEFA1F62EAE1009E8728 /* BDBOAuth1Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50DEEF81F62EAE1009E8728 /* BDBOAuth1Manager.framework */; };
+		B50DEEFC1F62EB5F009E8728 /* OAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DEEFB1F62EB5F009E8728 /* OAuthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18D01817A3964859C8D58286 /* Pods-GitReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitReader/Pods-GitReader.debug.xcconfig"; sourceTree = "<group>"; };
+		297F928438C4219C06AB0D2C /* Pods_GitReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF39EEDDE7DEEEA0F834C7D /* Pods_GitReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50DEEA61F61E091009E8728 /* GitReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50DEEA91F61E091009E8728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B50DEEAB1F61E091009E8728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B50DEEAE1F61E091009E8728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B50DEEB11F61E091009E8728 /* GitReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitReader.xcdatamodel; sourceTree = "<group>"; };
 		B50DEEB31F61E091009E8728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,20 @@
 		B50DEEC81F61E091009E8728 /* GitReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50DEECC1F61E091009E8728 /* GitReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitReaderUITests.swift; sourceTree = "<group>"; };
 		B50DEECE1F61E091009E8728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50DEEDC1F61E0F4009E8728 /* RepositoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesTableViewController.swift; sourceTree = "<group>"; };
+		B50DEEDE1F61E10F009E8728 /* CommitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitsTableViewController.swift; sourceTree = "<group>"; };
+		B50DEEE31F61E376009E8728 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		B50DEEE91F62DEF3009E8728 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B50DEEED1F62E6B4009E8728 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B50DEEEE1F62E6B5009E8728 /* Pods_GitReaderTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GitReaderTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_GitReaderTests.framework"; sourceTree = "<group>"; };
+		B50DEEEF1F62E6B5009E8728 /* Pods_GitReaderUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GitReaderUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_GitReaderUITests.framework"; sourceTree = "<group>"; };
+		B50DEEF01F62E6B5009E8728 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/GitReader-febytzhihfjylgesrntoytfnbtlq/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		B50DEEF51F62E705009E8728 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/GitReader-febytzhihfjylgesrntoytfnbtlq/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B50DEEF71F62EAE1009E8728 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		B50DEEF81F62EAE1009E8728 /* BDBOAuth1Manager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDBOAuth1Manager.framework; path = "Pods/../build/Debug-iphoneos/BDBOAuth1Manager/BDBOAuth1Manager.framework"; sourceTree = "<group>"; };
+		B50DEEFB1F62EB5F009E8728 /* OAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthManager.swift; sourceTree = "<group>"; };
+		C1460CD186201DE678C3F367 /* Pods_GitReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4F409FA269BE7A8002A601 /* Pods-GitReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitReader/Pods-GitReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50DEEF91F62EAE1009E8728 /* AFNetworking.framework in Frameworks */,
+				B50DEEFA1F62EAE1009E8728 /* BDBOAuth1Manager.framework in Frameworks */,
+				4D40CB9234C70E289024E124 /* Pods_GitReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6348D58B63F5EBB41AE71993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50DEEF71F62EAE1009E8728 /* AFNetworking.framework */,
+				B50DEEF81F62EAE1009E8728 /* BDBOAuth1Manager.framework */,
+				B50DEEF51F62E705009E8728 /* Alamofire.framework */,
+				B50DEEED1F62E6B4009E8728 /* Alamofire.framework */,
+				B50DEEEE1F62E6B5009E8728 /* Pods_GitReaderTests.framework */,
+				B50DEEEF1F62E6B5009E8728 /* Pods_GitReaderUITests.framework */,
+				B50DEEF01F62E6B5009E8728 /* SwiftyJSON.framework */,
+				297F928438C4219C06AB0D2C /* Pods_GitReader.framework */,
+				C1460CD186201DE678C3F367 /* Pods_GitReaderTests.framework */,
+				7AF39EEDDE7DEEEA0F834C7D /* Pods_GitReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D42A8CCB06B5924BE40D51D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18D01817A3964859C8D58286 /* Pods-GitReader.debug.xcconfig */,
+				DF4F409FA269BE7A8002A601 /* Pods-GitReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B50DEE9D1F61E091009E8728 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				B50DEEC01F61E091009E8728 /* GitReaderTests */,
 				B50DEECB1F61E091009E8728 /* GitReaderUITests */,
 				B50DEEA71F61E091009E8728 /* Products */,
+				7D42A8CCB06B5924BE40D51D /* Pods */,
+				6348D58B63F5EBB41AE71993 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,12 @@
 		B50DEEA81F61E091009E8728 /* GitReader */ = {
 			isa = PBXGroup;
 			children = (
-				B50DEEA91F61E091009E8728 /* AppDelegate.swift */,
-				B50DEEAB1F61E091009E8728 /* ViewController.swift */,
-				B50DEEAD1F61E091009E8728 /* Main.storyboard */,
-				B50DEEB31F61E091009E8728 /* Assets.xcassets */,
-				B50DEEB51F61E091009E8728 /* LaunchScreen.storyboard */,
+				B50DEEE21F61E149009E8728 /* ViewControllers */,
+				B50DEEE01F61E116009E8728 /* UI */,
+				B50DEEE11F61E12A009E8728 /* Delegates */,
 				B50DEEB81F61E091009E8728 /* Info.plist */,
 				B50DEEB01F61E091009E8728 /* GitReader.xcdatamodeld */,
+				B50DEEB51F61E091009E8728 /* LaunchScreen.storyboard */,
 			);
 			path = GitReader;
 			sourceTree = "<group>";
@@ -128,6 +181,35 @@
 			path = GitReaderUITests;
 			sourceTree = "<group>";
 		};
+		B50DEEE01F61E116009E8728 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B50DEEAD1F61E091009E8728 /* Main.storyboard */,
+				B50DEEB31F61E091009E8728 /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B50DEEE11F61E12A009E8728 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B50DEEA91F61E091009E8728 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		B50DEEE21F61E149009E8728 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B50DEEDC1F61E0F4009E8728 /* RepositoriesTableViewController.swift */,
+				B50DEEDE1F61E10F009E8728 /* CommitsTableViewController.swift */,
+				B50DEEE31F61E376009E8728 /* NetworkConnection.swift */,
+				B50DEEE91F62DEF3009E8728 /* SignInViewController.swift */,
+				B50DEEFB1F62EB5F009E8728 /* OAuthManager.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B50DEED11F61E091009E8728 /* Build configuration list for PBXNativeTarget "GitReader" */;
 			buildPhases = (
+				F28577A73623047A0AA72549 /* [CP] Check Pods Manifest.lock */,
 				B50DEEA21F61E091009E8728 /* Sources */,
 				B50DEEA31F61E091009E8728 /* Frameworks */,
 				B50DEEA41F61E091009E8728 /* Resources */,
+				F70D8BE68A12EA4EF3C521E1 /* [CP] Embed Pods Frameworks */,
+				408B488AF0B1B430B763460D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +345,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		408B488AF0B1B430B763460D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitReader/Pods-GitReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28577A73623047A0AA72549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F70D8BE68A12EA4EF3C521E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitReader/Pods-GitReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B50DEEA21F61E091009E8728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50DEEAC1F61E091009E8728 /* ViewController.swift in Sources */,
+				B50DEEDF1F61E10F009E8728 /* CommitsTableViewController.swift in Sources */,
+				B50DEEFC1F62EB5F009E8728 /* OAuthManager.swift in Sources */,
+				B50DEEDD1F61E0F4009E8728 /* RepositoriesTableViewController.swift in Sources */,
+				B50DEEEA1F62DEF3009E8728 /* SignInViewController.swift in Sources */,
+				B50DEEE41F61E376009E8728 /* NetworkConnection.swift in Sources */,
 				B50DEEAA1F61E091009E8728 /* AppDelegate.swift in Sources */,
 				B50DEEB21F61E091009E8728 /* GitReader.xcdatamodeld in Sources */,
 			);
@@ -417,10 +554,19 @@
 		};
 		B50DEED21F61E091009E8728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D01817A3964859C8D58286 /* Pods-GitReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57UR83VR6Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/BDBOAuth1Manager",
+				);
 				INFOPLIST_FILE = GitReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Khoroshko.GitReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +576,19 @@
 		};
 		B50DEED31F61E091009E8728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4F409FA269BE7A8002A601 /* Pods-GitReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57UR83VR6Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/BDBOAuth1Manager",
+				);
 				INFOPLIST_FILE = GitReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Khoroshko.GitReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +673,7 @@
 				B50DEED31F61E091009E8728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50DEED41F61E091009E8728 /* Build configuration list for PBXNativeTarget "GitReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +682,7 @@
 				B50DEED61F61E091009E8728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50DEED71F61E091009E8728 /* Build configuration list for PBXNativeTarget "GitReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +691,7 @@
 				B50DEED91F61E091009E8728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

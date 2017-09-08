@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/SignInViewController.swift"
+            timestampString = "526575294.177247"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.SignInViewController.__deallocating_deinit"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/SignInViewController.swift"
+                  timestampString = "526581421.111018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.SignInViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GitReader.SignInViewController"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/SignInViewController.swift"
+                  timestampString = "526581421.113511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.SignInViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GitReader.SignInViewController"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/SignInViewController.swift"
+                  timestampString = "526581421.115692"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.SignInViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GitReader.SignInViewController&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/SignInViewController.swift"
+                  timestampString = "526581421.118639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.SignInViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GitReader.SignInViewController&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/SignInViewController.swift"
+                  timestampString = "526581421.121647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/AppDelegate.swift"
+            timestampString = "526581416.56398"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "saveContext()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/OAuthManager.swift"
+            timestampString = "526581416.56398"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "OAuthManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_C257190B5B952376AE9B8B5C8060B909_func0"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.589248"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.sharedInstance.unsafeMutableAddressor : Swift.Optional&lt;GitReader.OAuthManager&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.592224"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static GitReader.OAuthManager.sharedInstance.getter : Swift.Optional&lt;GitReader.OAuthManager&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.595881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/OAuthManager.swift"
+            timestampString = "526577590.274064"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "OAuthManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/OAuthManager.swift"
+            timestampString = "526577592.799692"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "OAuthManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/OAuthManager.swift"
+            timestampString = "526577635.383049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "OAuthManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.__allocating_init (baseURL : Swift.ImplicitlyUnwrappedOptional&lt;Foundation.URL&gt;, consumerKey : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, consumerSecret : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;GitReader.OAuthManager&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.602542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.__deallocating_deinit"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.603998"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.init (baseURL : Swift.ImplicitlyUnwrappedOptional&lt;Foundation.URL&gt;, consumerKey : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, consumerSecret : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;GitReader.OAuthManager&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.605397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.init (baseURL : Swift.Optional&lt;Foundation.URL&gt;, sessionConfiguration : Swift.Optional&lt;__ObjC.URLSessionConfiguration&gt;) -&gt; GitReader.OAuthManager"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.606763"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.__allocating_init (baseURL : Swift.Optional&lt;Foundation.URL&gt;, sessionConfiguration : Swift.Optional&lt;__ObjC.URLSessionConfiguration&gt;) -&gt; GitReader.OAuthManager"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.608123"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GitReader.OAuthManager&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.609857"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.OAuthManager.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GitReader.OAuthManager&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/OAuthManager.swift"
+                  timestampString = "526583271.61143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/OAuthManager.swift"
+            timestampString = "526581203.502751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "OAuthManager"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/RepositoriesTableViewController.swift"
+            timestampString = "526582197.908154"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "RepositoriesTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.RepositoriesTableViewController.commits.getter : Swift.String"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/RepositoriesTableViewController.swift"
+                  timestampString = "526582557.124063"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.RepositoriesTableViewController.commits.setter : Swift.String"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/RepositoriesTableViewController.swift"
+                  timestampString = "526582557.125597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.RepositoriesTableViewController.init (style : __C.UITableViewStyle) -&gt; GitReader.RepositoriesTableViewController"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/RepositoriesTableViewController.swift"
+                  timestampString = "526582557.127036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.RepositoriesTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GitReader.RepositoriesTableViewController"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/RepositoriesTableViewController.swift"
+                  timestampString = "526582557.128456"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GitReader.RepositoriesTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GitReader.RepositoriesTableViewController&gt;"
+                  moduleName = "GitReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emma/Desktop/Xcode/GitReader/GitReader/RepositoriesTableViewController.swift"
+                  timestampString = "526582557.129918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GitReader/SignInViewController.swift"
+            timestampString = "526583183.635088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "tapOutsidetoHideKey(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
